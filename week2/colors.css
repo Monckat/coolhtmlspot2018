@@ -1,23 +1,31 @@
 .name {
-  color: ;
+  font-size: 30px;
+  color: brown;
 }
 
 .rgb {
-  color: ;
+  font-size: 30px;
+  color: rgb(230, 100, 20);
 }
 
 .hex {
-  color: ;
+  font-size: 30px;
+  color: #5a35c0;
 }
 
-.hls {
-  color: ;
+.hsl {
+  font-size: 30px;
+  color: hsl(31, 43%, 76%);
 }
 
 .rgba {
-  color: ;
+  font-size: 30px;
+  color: rgba(255, 20, 174, .4);
+  /* background-color: green; */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, .5)
 }
 
-.hlsa {
-  color: ;
+.hsla {
+  font-size: 30px;
+  color: hsla(50, 50%, 50%, .8);
 }

@@ -1,0 +1,55 @@
+/* body {
+    font: 30px arial;
+} */
+
+.pixel {
+    font-size: 20px;
+    color: #5a35c0;
+    background-color: black;
+}
+
+.pixel h2 {
+    font-size: 100px;
+}
+
+.percent {
+    font-size: 200%;
+    color: #ff6600;
+    background-color: orange;
+}
+
+.percent h2 {
+    font-size: 200%;
+}
+
+.em {
+    /* 1em === the current font size */
+    font-size: 3em;    
+    color: #00afc3;
+    background-color: crimson;
+}
+
+.em h2 {
+    font-size: 2.5em;
+
+}
+
+.rem {
+    color: #feff68;
+    background-color: #002e20;
+    font-size: 2rem;
+}
+
+.rem h2 {
+    font-size: 2rem;
+}
+
+.vh {
+    background-color: #00ee20;
+    height: 50vh;
+}
+
+.vw {
+    background-color: #ff3500;
+    width: 40vw;
+}
