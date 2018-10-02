@@ -6,4 +6,50 @@ body {
 .wrapper {
   width: 800px;
   background-color: #ffffff;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+.wrapper h1 {
+  margin-top: 0;
+}
+
+.padding-example {
+  background-color: #99ff00;
+  border: 3px solid #00aa50;
+  text-align: justify;
+  padding: 1em;
+}
+
+.margin-example {
+  background-color: #ff0060;
+  padding: 1em;
+  border: 3px solid black;
+  margin: 1em 0;
+}
+
+.example {
+  background-color: #5000cc;
+  color: white;
+  border: 3px solid black;
+  margin: 1em 0;
+  padding: 1em;
+}
+
+.example p {
+  margin: 0;
+}
+
+.box {
+  background-color: #bbffcc;
+  padding: 1em;
+  margin: 1em 0;
+}
+
+.box p:first-child {
+  margin-top: 0;
+}
+
+.box p:last-child {
+  margin-bottom: 0;
 }

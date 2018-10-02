@@ -1,0 +1,43 @@
+body {
+    font: 16px arial;
+    color: red;
+}
+
+div {
+    color: #5a35c0;
+    /* border-style: solid;
+    border-width: 10px;
+    border-color: black; */
+    border: 10px solid black;
+}
+
+.bottom {
+    border-color: teal;
+    border-bottom-color: orangered;
+    border-top-color: yellowgreen;
+}
+
+li {
+    border-bottom: 1px solid darkgrey;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+.rounded {
+    border: 10px solid goldenrod;
+    border-radius: 20px;
+}
+
+.circle{
+    background-color: rebeccapurple;
+    color: white;
+    width: 100px;
+    line-height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 40px;
+    transform: rotate(-45deg);
+    text-shadow: 2px 2px 10px rgba(0,0,0,1);
+}
