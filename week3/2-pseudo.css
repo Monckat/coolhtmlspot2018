@@ -1,9 +1,51 @@
 @import "week3-base.css";
 
+.link {
+  font-size: 2em;
+  color: darkgoldenrod;
+  text-decoration: none;
+}
+
+.link:link {
+  color: darkmagenta;
+}
+
+.link:visited {
+  color: greenyellow;
+}
+
+.link:hover {
+  color: palegoldenrod;
+  text-decoration: underline;
+}
+
+.link:active {
+  color: hotpink;
+}
+
+.note:hover {
+  background-color: dodgerblue;
+}
+
+.note:hover code {
+  background-color: aqua;
+  color: black;
+}
+
+
 .input {
   border: 2px solid black;
   padding: .5em 1em;
   border-radius: 4px;
+  font-size: 2em;
+  color: purple;
+}
+
+.input:focus {
+  border-color: hotpink;
+  outline: none;
+  width: 100%;
+  color: green;
 }
 
 .quote {
@@ -12,6 +54,19 @@
   color: darkturquoise;
 }
 
+.quote p::before,
+.quote p::after {
+  color: hotpink;
+}
+
+.quote p::before {
+  content: "\201C";
+}
+
+
+.quote p::after {
+  content: "\201D";
+}
 
 /* https://practicaltypography.com/straight-and-curly-quotes.html */
 /*
