@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Grid Names</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <style>
+        main {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: 100px 100px 600px 100px;
+            grid-template-areas:
+                "hd hd hd hd"
+                ". nv nv s"
+                "c c . s"
+                "ft ft ft s"
+            ;
+        }
+
+        header {
+            background-color: red;
+            grid-area: hd;
+        }
+
+        nav {
+            background-color: green;
+            grid-area: nv;
+        }
+
+        article {
+            background-color: blue;
+            grid-area: c;
+        }
+
+        footer {
+            background-color: black;
+            grid-area: ft;
+        }
+
+        aside {
+            background-color: aquamarine;
+            grid-area: s;
+        }
+        
+        a {
+            display: block;
+            padding: 1em;
+        }
+        
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            display: flex;
+            /* grid-template-columns: repeat(3, 1fr); */
+            justify-content: center;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <header></header>
+        <nav>
+            <ul>
+                <li><a href="">Nav Item 1</a></li>
+                <li><a href="">Nav Item 2</a></li>
+                <li><a href="">Nav Item 3</a></li>
+                <li><a href="">Nav Item 3</a></li>
+            </ul>
+        </nav>
+        <article></article>
+        <footer></footer>
+        <aside></aside>
+    </main>
+</body>
+</html>
