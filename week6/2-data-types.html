@@ -17,6 +17,77 @@
   </ul>
 
   <script>
+    // creata a variable
+    var isMale;
+    //assign the variable
+    isMale = true;
+    //logthevariable
+    console.log(isMale);
+    //reassign the variable
+    isMale = false;
+    console.log(isMale);
+
+// create a let (lets cam be reassigned)
+    let isHappy = true;
+    console.log(isHappy);
+    isHappy = false;
+    console.log(isHappy);
+
+//create a const which can not be reassigned and throws an error.
+    const isHungry = false;
+    console.log(isHungry);
+    // isHungry = true;
+    // console.log(isHungry);
+
+    //null
+    var foo = null;
+    console.log(foo);
+
+    // undefined
+    var appleType;
+    console.log(appleType);
+    appleType = "Mac";
+    console.log(appleType);
+
+    // number
+    var a = 10;
+    var b = 20;
+    var total = a + b;
+    console.log(total);
+
+    console.log((10 + 20) / 2);
+
+    console.log(4 * 5 + 20);
+
+    var smallNumber = .93;
+
+    console.log(smallNumber);
+
+    var random = Math.round(Math.random() * 52);
+    // var round = Math.round(random);
+
+    // console.log(round);
+    console.log(random);
+
+    console.log(Math.PI);
+
+    // string
+    var first = "Henry";
+    var last = "Conrad";
+    var lastlast = "Poor";
+    var year = 2008;
+    var space = " ";
+    var hyphen = "-";
+    var fullname = first + space + last + hyphen + lastlast + space + year;
+    console.log(fullname);
+
+    var fullname2 = `Hi class, my name is ${first} ${last}-${lastlast} ${year}`;
+    console.log(fullname2);
+
+    var name ="Henry Conrad-Poor";
+    console.log(name.length);
+    console.log(name.charAt(4));
+    console.log(name.link('https://www.svahtml.com'));
 
   </script>
 </body>
