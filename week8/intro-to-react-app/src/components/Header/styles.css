@@ -1,0 +1,11 @@
+.Header {
+  border: 5px solid salmon;
+  background-color: darkcyan;
+  color: white;
+  padding: 1em;
+  border-radius: 10px;
+}
+
+.Header h1 {
+  margin: 0;
+}
