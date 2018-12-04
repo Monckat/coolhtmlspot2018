@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Gallery from './components/gallery';
 
 class App extends Component {
   constructor(props) {
@@ -19,6 +20,7 @@ updateClicks() {
     return (
       <div className="App">
         <h1 onClick={this.updateClicks}>Times I have been clicked. - {this.state.clicks}</h1>
+        <Gallery title="Fall 2018"/>
       </div>
     );
   }
